@@ -1,0 +1,9 @@
+# Ratpoison keybindings
+unbind C-c
+bind C-c exec st
+unbind C-e
+bind C-e exec emacs
+
+# On Startup
+exec xrandr --output LVDS-1 --brightness 0.7
+# Uncomment if the befault brightness is too high
