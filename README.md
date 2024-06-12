@@ -1,5 +1,6 @@
-# The Voidrice (MaterialFuture's dotfiles)
+# Voidrice (My personal dotfiles)
 These are the dotfiles deployed for MARBS.
+This is a highly opinionated dotfile setup. Please make modifications before installing or using.
 
 - Very useful scripts are in `~/.local/bin/`
 - Settings for:
@@ -25,11 +26,13 @@ These dotfiles are intended to go with emacs and other programs I use:
 - [st](https://github.com/lukesmithxyz/st) (Luke Smiths's fork of ST)
 
 ## Install these dotfiles and all dependencies
-Use [MARBS](https://) to autoinstall everything:
-
-```
-curl -LO https://raw.githubusercontent.com/MaterialFuture/MARBS/master/marbs.sh
-```
+Use MARBS (my other repo) to autoinstall everything:
 
 or clone the repo files directly to your home directory and install the
-[dependencies](https://github.com/MaterialFuture/MARBS/blob/master/progs.csv).
+[dependencies](https://github.com/konstantine-v/MARBS/blob/master/progs.csv).
+
+## Please Note
+These haven't been tested since about 2021-2022 so please make changes on another machine before going in and using it on a personal machine
+
+## Picture of you
+![Alt text](.local/share/larbs/larbs.png)
